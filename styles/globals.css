@@ -2,8 +2,19 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.center {
+	text-align: center;
+}
+
+* {
+	font-family: 'Source Sans Pro', sans-serif !important;
+	line-height: 2 !important;
+}
+
+p {
+	font-size: 15px !important;
 }
 
 a {

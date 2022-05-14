@@ -1,0 +1,21 @@
+.main-header {
+	font-family: 'Courgette', sans-serif !important;
+	font-weight: 900;
+	text-align: center;
+	border: 8px double black !important;
+	width: 50%;
+	padding: 40px !important;
+	text-decoration: underline;
+	font-size: 50px !important;
+	margin: auto !important;
+}
+
+hr.spacer {
+	border: none;
+	height: 20px;
+}
+
+.para1 {
+	font-family: 'Courgette', sans-serif !important;
+	text-align: center;
+}
