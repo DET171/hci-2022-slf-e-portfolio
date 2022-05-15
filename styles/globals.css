@@ -2,6 +2,34 @@ html,
 body {
   padding: 0;
   margin: 0;
+	scroll-behavior: smooth;
+}
+
+.active.item {
+	border-color: #fff !important;
+}
+
+#__next {
+	padding-bottom: 40px !important;
+}
+
+body::after {
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	z-index: -15 !important;
+	background-attachment: fixed !important;
+	background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/29/Hwa_Chong_Institution_Clock_Tower_and_Tan_Kah_Kee_Statue.jpg') !important;
+	content: "";
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	filter: brightness(0.5);
+}
+
+.icon {
+	display: inline-block !important;
 }
 
 .center {
@@ -9,19 +37,27 @@ body {
 }
 
 * {
-	font-family: 'Source Sans Pro', sans-serif !important;
 	line-height: 2 !important;
+	color: #fff !important;
+	box-sizing: border-box;
+	background: transparent !important;
+}
+
+*:not(.icon) {
+	font-family: 'Source Sans Pro', sans-serif !important;
 }
 
 p {
 	font-size: 15px !important;
 }
 
+
+hr.spacer {
+	border: none;
+	height: 20px;
+}
+
 a {
   color: inherit;
   text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
 }

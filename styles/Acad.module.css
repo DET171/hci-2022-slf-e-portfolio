@@ -10,7 +10,10 @@
 	margin: auto !important;
 }
 
-.para1 {
+.courgette {
 	font-family: 'Courgette', sans-serif !important;
-	text-align: center;
+}
+
+.underline {
+	text-decoration: underline;
 }

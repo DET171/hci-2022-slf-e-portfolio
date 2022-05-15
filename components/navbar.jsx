@@ -1,6 +1,7 @@
 import { Component } from 'react';
 import { Menu } from 'semantic-ui-react';
 import Link from 'next/link';
+import { navbar } from '../styles/Nav.module.css';
 
 export default class App extends Component {
 	constructor(props) {
@@ -16,7 +17,7 @@ export default class App extends Component {
 	render() {
 		return (
 			<>
-				<Menu pointing secondary>
+				<Menu pointing secondary className={navbar}>
 					<Menu.Item>SLF</Menu.Item>
 					<Menu.Menu position='right'>
 						<Link href='/' passHref>
@@ -30,6 +31,18 @@ export default class App extends Component {
 								active={this.state.activeItem === 'academic'}
 								onClick={this.handleItemClick}
 							>Academic</Menu.Item>
+						</Link>
+						<Link href='/cca' passHref>
+							<Menu.Item
+								active={this.state.activeItem === 'cca'}
+								onClick={this.handleItemClick}
+							>CCA</Menu.Item>
+						</Link>
+						<Link href='/sil' passHref>
+							<Menu.Item
+								active={this.state.activeItem === 'sil'}
+								onClick={this.handleItemClick}
+							>Student-Initiated Learning</Menu.Item>
 						</Link>
 					</Menu.Menu>
 				</Menu>

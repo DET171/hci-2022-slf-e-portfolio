@@ -21,7 +21,7 @@ export default class App extends Component {
 				</Head>
 				<Navbar activeItem='home' />
 				<Header as='h1' className={styles['main-header']}>My Journey in HCI (so far)</Header>
-				<hr className={styles.spacer} />
+				<hr className='spacer' />
 				<Container text>
 					<p className={styles.para1}>It has been a very fulfilling half a year where I have met a lot of people, made a lot of new friends and learnt a lot of new things. </p>
 					<p className='center'>(I do not yet have any photos of myself in HCI)</p>
