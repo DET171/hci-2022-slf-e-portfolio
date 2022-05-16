@@ -12,7 +12,9 @@ export default class App extends Component {
 		};
 	}
 
-	handleItemClick = (e, { name }) => this.setState({ activeItem: name });
+	handleItemClick = (...params) => {
+		console.log('Page changed');
+	};
 
 	render() {
 		return (
@@ -43,6 +45,12 @@ export default class App extends Component {
 								active={this.state.activeItem === 'sil'}
 								onClick={this.handleItemClick}
 							>Student-Initiated Learning</Menu.Item>
+						</Link>
+						<Link href='/milestones' passHref>
+							<Menu.Item
+								active={this.state.activeItem === 'milestones'}
+								onClick={this.handleItemClick}
+							>Milestones</Menu.Item>
 						</Link>
 					</Menu.Menu>
 				</Menu>

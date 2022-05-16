@@ -24,13 +24,19 @@ export default class App extends Component {
 				<hr className='spacer' />
 				<Container text className={styles.container}>
 					<p>
-						My academic progress has been pretty much satisfactory (except for one subject) throughout the first semester of 2022, but I feel that there are still a couple of things I should improve on.
+						My academic progress has been pretty much satisfactory (except for one subject) throughout the first semester of 2022, but I feel that there are still a couple of things I should improve on:
 					</p>
 					<List bulleted>
 						<List.Item>
 							<List.Icon name='folder' />
 							<List.Content>
 								Avoid last minute filing
+							</List.Content>
+						</List.Item>
+						<List.Item>
+							<List.Icon name='language' />
+							<List.Content>
+								ELL Analysis
 							</List.Content>
 						</List.Item>
 					</List>

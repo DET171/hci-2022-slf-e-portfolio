@@ -38,7 +38,22 @@ export default class App extends Component {
 						</List.Item>
 						<List.Item>
 							<List.Content>
-								And most importantly, you get to make new friends
+								And most importantly, you get to make new friends!
+							</List.Content>
+						</List.Item>
+					</List>
+					<Header as='h1' className={`${styles.courgette}  ${styles.underline}`}>
+						A couple of projects/project that I&apos;ve done (that are affiliated with my CCA)
+					</Header>
+					<List bulleted>
+						<List.Item>
+							<List.Content>
+								<a className='l' href='https://github.com/EC3-Gang/open-house-wordle'>HCI 2022 Open House Geoguesser</a>
+							</List.Content>
+						</List.Item>
+						<List.Item>
+							<List.Content>
+								<a className='l' href='https://hcicppguide.me'>A Competitive Programming Guide</a>
 							</List.Content>
 						</List.Item>
 					</List>

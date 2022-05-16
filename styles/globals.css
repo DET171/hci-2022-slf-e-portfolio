@@ -28,12 +28,21 @@ body::after {
 	filter: brightness(0.5);
 }
 
-.icon {
-	display: inline-block !important;
-}
-
 .center {
 	text-align: center;
+}
+
+a.l {
+	color: rgb(113, 194, 248) !important;
+}
+
+a.l:hover {
+	color: rgb(52, 174, 255) !important;
+}
+
+a.l:active {
+	color: rgb(0, 118, 197) !important;
+	text-decoration: underline !important;
 }
 
 * {
